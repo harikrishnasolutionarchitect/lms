@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/123456789_dkr_ecr_us_east_1_amazonaws_com_nginx:1.25.2-alpine-slim
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/123456789_dkr_ecr_us_east_1_amazonaws_com_nginx:1.25.3-alpine-slim
